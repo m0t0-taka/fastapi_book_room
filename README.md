@@ -19,3 +19,11 @@ API endpoint http://127.0.0.1:8000
 ### アプリの起動
 
 `streamlit run app.py`
+
+## SQL
+
+SQLite を使用
+
+### SQLAlchemy のインストール
+
+`pip3 install sqlalchemy`

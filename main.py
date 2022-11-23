@@ -6,6 +6,7 @@ from pydantic import BaseModel, Field
 class Booking(BaseModel):
     booking_id: int
     user_id: int
+    room_id: int
     booked_num: int
     start_at: datetime.datetime
     end_at: datetime.datetime
